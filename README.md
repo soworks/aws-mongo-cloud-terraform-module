@@ -16,7 +16,7 @@ module "mongodb_atlas_dedicated_cluster" {
   # ---------------------------
   # Project
   # ---------------------------
-  mongodbatlas_project_name = "sample-dedicated-cluster"
+  mongodbatlas_project_name = "project-x-cluster"
   mongodbatlas_auditing     = true
   //Add addtional CIDRs example
   ip_access_list = [
@@ -77,10 +77,6 @@ module "mongodb_atlas_dedicated_cluster" {
 | <a name="provider_time"></a> [time](#provider_time) | ~> 0.10.0 |
 
 #### Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_msteams_notification"></a> [msteams_notification](#module_msteams_notification) | git::ssh://git@bitbucket.org/lexipol/terraform-aws-teams-notifications.git | v1.0.4 |
 
 #### Inputs
 
