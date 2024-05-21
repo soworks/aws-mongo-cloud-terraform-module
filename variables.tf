@@ -69,7 +69,6 @@ variable "existing_teams" {
 
 variable "mongodb_org_id" {
   type        = string
-  default     = "63ea7859fc952701885633b6"
   description = "Org ID in MongDB atlas"
   sensitive   = true
 }
