@@ -1,7 +1,7 @@
 variable "component" {
   type        = string
   description = "Terraform Component Name"
-  default     = "lexid"
+  default     = "projectX"
 }
 variable "owner" {
   type        = string
@@ -20,7 +20,6 @@ variable "env_name" {
 }
 variable "mongodb_org_id" {
   type        = string
-  default     = "63ea7859fc952701885633b6"
   description = "Org ID in MongDB atlas"
   sensitive   = true
 }
