@@ -12,11 +12,11 @@ This Terraform module enables the automated provisioning of a MongoDB Atlas proj
 # ////////////////////////////////////////////
 
 module "mongodb_atlas_dedicated_cluster" {
-  source = ""git::ssh://git@bitbucket.org/lexipol/ terraform-mongodbatlas-cluster.git?ref=v1.0.1"
+  source = "/./"
   # ---------------------------
   # Project
   # ---------------------------
-  mongodbatlas_project_name = "phx-dedicated-cluster"
+  mongodbatlas_project_name = "sample-dedicated-cluster"
   mongodbatlas_auditing     = true
   //Add addtional CIDRs example
   ip_access_list = [
