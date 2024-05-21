@@ -7,9 +7,9 @@ module "mongodb_atlas_dedicated_cluster" {
   # ---------------------------
   # Project
   # ---------------------------
-  mongodbatlas_project_name = "phx-dedicated-cluster"
-  cluster_name              = "ai-manuals-mongo-db"
-  component                 = "lexid"
+  mongodbatlas_project_name = "project-x-cluster"
+  cluster_name              = "ai-mongo-db"
+  component                 = "project-x"
   env_name                  = "stage"
   mongodbatlas_auditing     = true
   //Add addtional CIDRs example
